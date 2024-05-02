@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Briem+Hand:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Briem+Hand:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  height: 100%;
+  background: rgb(132, 232, 234);
+  background: linear-gradient(
+    137deg,
+    rgba(132, 232, 234, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header h3 {
+  color: rgb(232, 54, 54);
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0;
+}
+
+.header h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: rgb(232, 54, 54);
+  font-size: 70px;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.description h2 {
+  font-family: "Briem Hand", cursive;
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(234, 54, 54);
+  text-align: center;
+}
+.inputsec {
+  display: flex;
+  justify-content: center;
+}
+.inputsec input[type="text"] {
+  background-color: rgba(255, 255, 255, 0.497);
+  border: none;
+  height: 35px;
+  width: 300px;
+  font-family: "Roboto", san-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.inputsec input[type="text"]:focus {
+  outline: none;
+}
+.inputsec input[type="submit"] {
+  width: 100px;
+  margin-left: 20px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: 2px solid;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.inputsec input[type="submit"]:hover {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid;
+  color: white;
+  border-color: black;
+  cursor: pointer;
+}
+.content-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.content-input {
+  background-color: rgba(255, 255, 255, 0.449);
+  margin-right: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  height: 40px;
+  width: 250px;
+  border: transparent;
+}
+.action-btn {
+  background-color: white;
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.action-btn:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+.contentheader h2 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: rgb(232, 54, 54);
+}
